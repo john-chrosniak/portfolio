@@ -12,7 +12,7 @@ const NavbarCustom = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link style={{color: "white"}} href="/home">Home</Nav.Link> {/*TODO: change to racecar icon or something */}
+            <Nav.Link style={{color: "white"}} href="/home">Home</Nav.Link>
             <Nav.Link style={{color: "white"}} href="/about">About</Nav.Link>
             <Nav.Link style={{color: "white"}} href={PDF} target = "_blank">Resume</Nav.Link>
           </Nav>

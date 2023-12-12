@@ -12,6 +12,7 @@ import traj_demo from './images/halfwaydecentovertake.mp4'
 import racecar_demo from './images/racecar_demo.mp4'
 
 import aipd from './images/aipd_logo.png'
+import capstone from './images/capstone.PNG'
 import rosbot_sar from './images/sar_map.png'
 import cube_crusher from './images/cube_crusher.png'
 import free_throw_fixer from './images/shaq_free_throw.jpeg'
@@ -117,133 +118,119 @@ const ProjectList = () => {
                 <Container className="mb-5">
                     <h4>Peer-Reviewed</h4>
                     <p><a href={"https://arxiv.org/abs/2312.04374"}><b>[3]</b> John Chrosniak, Jingyun Ning, and Madhur Behl. <b><i>Deep Dynamics: Vehicle Dynamics Modeling with a Physics-Informed Neural
-                    Network for Autonomous Racing</i></b>. <i>Under Peer Review at RA-L</i>, 2023. <a href={"https://arxiv.org/abs/2312.04374"}> <FontAwesomeIcon icon={faFilePdf}/></a></a></p>
+                    Network for Autonomous Racing</i></b>. <i>Under Peer Review at RA-L</i>, 2023. </a><a href={"https://arxiv.org/abs/2312.04374"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                     <p><a href={"https://arxiv.org/abs/2306.03252"}><b>[2]</b> Amar Kulkarni, John Chrosniak, Emory Ducote, Florian Sauerback, Andrew Saba, Utkarsh Chirimar, John Link,
                     Marcello Cellina, and Madhur Behl. <b><i>RACECAR &mdash; The Dataset for High-Speed Autonomous Racing</i></b>. In <i>2023 IEEE International
-                    Conference on Intelligent Robots and Systems</i>, 2023. <a href={"https://arxiv.org/abs/2306.03252"}> <FontAwesomeIcon icon={faFilePdf}/></a></a></p>
+                    Conference on Intelligent Robots and Systems</i>, 2023.</a> <a href={"https://arxiv.org/abs/2306.03252"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                     <p><a href={"https://par.nsf.gov/biblio/10320142-towards-multi-agent-autonomous-racing-deepracing-framework"}><b>[1]</b> Trent Weiss, John Chrosniak, and Madhur Behl. <b><i>Towards Multi-Agent Autonomous Racing with the DeepRacing Framework</i></b>. In <i>2021 IEEE International
-                    Conference on Robotics and Automation (ICRA) - Workshop on Opportunities and Challenges with Autonomous Racing</i>, 2021. <a href={"https://par.nsf.gov/biblio/10320142-towards-multi-agent-autonomous-racing-deepracing-framework"}> <FontAwesomeIcon icon={faFilePdf}/></a></a></p>
+                    Conference on Robotics and Automation (ICRA) - Workshop on Opportunities and Challenges with Autonomous Racing</i>, 2021. </a><a href={"https://par.nsf.gov/biblio/10320142-towards-multi-agent-autonomous-racing-deepracing-framework"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                 </Container>
                 <Container className="mt-4">
                     <h4>Theses</h4>
                     <p><a href={"https://doi.org/10.18130/0qav-fv52"}><b>[2]</b> John Chrosniak. <i><b>Deep Dynamics: Vehicle Dynamics Modeling with a Physics-Informed Neural Network 
-                    for Autonomous Racing</b></i>. University of Virginia, Computer Science - School of Engineering and Applied Science, MS (Master of Science), 2023. <a href={"https://doi.org/10.18130/0qav-fv52"}> <FontAwesomeIcon icon={faFilePdf}/></a></a></p>
+                    for Autonomous Racing</b></i>. University of Virginia, Computer Science - School of Engineering and Applied Science, MS (Master of Science), 2023. </a><a href={"https://doi.org/10.18130/0qav-fv52"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                     <p><a href={"https://doi.org/10.18130/ppe1-at69"}><b>[1]</b> John Chrosniak. <i><b>Bouncer Locking System; Internet of Risky Things: Investigating the Social Construction of IoT Devices</b></i>.
-                University of Virginia, School of Engineering and Applied Science, BS (Bachelor of Science), 2022. <a href={"https://doi.org/10.18130/ppe1-at69"}> <FontAwesomeIcon icon={faFilePdf}/></a></a></p>
+                University of Virginia, School of Engineering and Applied Science, BS (Bachelor of Science), 2022. </a><a href={"https://doi.org/10.18130/ppe1-at69"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                 </Container>
             </div>
 
 
-            <div id="Projects section">
+            <div id="Projects section" className="pb-5">
                 <h2 className="pt-5"><center>Projects</center></h2>
-                <Row lg={4}>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={aipd}/>
-                        </Row>
-                        <Row>   
+                <Row>
+                    <Col md={4}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                    <Card.Img variant="top" src={aipd}/>
+                                        <Card.Body>                
+                                                <Card.Title className="font-weight-bold">A.I.P.D</Card.Title>                
+                                                <Card.Text>
+                                                    Enforcing Traffic Violations with Autonomous Vehicles
+                                                </Card.Text>           
+                                        </Card.Body>   
+                            </Card.Link>
+                        </Card>
+                    </Col>
+                    <Col md={4}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={capstone}/>
                                 <Card.Body>                
-                                        <Card.Title className="font-weight-bold">A.I.P.D</Card.Title>                
-                                        <Card.Text>
-                                            Enforcing Traffic Violations with Autonomous Vehicles
-                                        </Card.Text>           
+                                    <Card.Title className="font-weight-bold">Bouncer Locking System</Card.Title>                
+                                    <Card.Text>
+                                        An Anti-Theft Lockbox for Safe Package Delivery
+                                    </Card.Text>           
                                 </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={"/*TODO: fill in with images */"}/>
-                        </Row>
-                        <Row>   
+                            </Card.Link>
+                        </Card>
+                    </Col>
+                    <Col md={4}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                             <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={rosbot_sar}/>
                                 <Card.Body>                
-                                        <Card.Title className="font-weight-bold">Bouncer Locking System</Card.Title>                
-                                        <Card.Text>
-                                            An Anti-Theft Lockbox for Safe Package Delivery
-                                        </Card.Text>           
+                                    <Card.Title className="font-weight-bold">ROSbot Search & Rescue</Card.Title>                
+                                    <Card.Text>
+                                    Locating Objects of Interest While Mapping an Unknown Environment
+                                    </Card.Text>           
                                 </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={rosbot_sar}/>
-                        </Row>
-                        <Row>   
-                                <Card.Body>                
-                                        <Card.Title className="font-weight-bold">ROSbot Search & Rescue</Card.Title>                
-                                        <Card.Text>
-                                            Locating Objects of Interest While Mapping an Unknown Environment
-                                        </Card.Text>           
-                                </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={cube_crusher}/>
-                        </Row>
-                        <Row>   
-                                <Card.Body>                
-                                        <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>                
-                                        <Card.Text>
-                                            Video Game for the Tiva C Series MCU
-                                        </Card.Text>           
-                                </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
+                            </Card.Link>
+                        </Card>
+                    </Col>
                 </Row>
-                <Row lg={3}>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={free_throw_fixer}/>
-                        </Row>
-                        <Row>   
+                <Row className="pt-5">
+                    <Col md={3}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={cube_crusher}/>
                                 <Card.Body>                
-                                        <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>                
-                                        <Card.Text>
-                                            Fixing Basketball Shooting Form with a Smart Watch
-                                        </Card.Text>           
+                                    <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>                
+                                    <Card.Text>
+                                    Video Game for the Tiva C Series MCU
+                                    </Card.Text>           
                                 </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={pcd_augmentation}/>
-                        </Row>
-                        <Row>   
+                            </Card.Link>
+                        </Card>
+                    </Col>
+                    <Col md={3}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={free_throw_fixer}/>
                                 <Card.Body>                
-                                        <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>                
-                                        <Card.Text>
-                                            Impact of Perturbation Injections for LiDAR-Based Neural Networks
-                                        </Card.Text>           
+                                    <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>                
+                                    <Card.Text>
+                                    Fixing Basketball Shooting Form with a Smart Watch
+                                    </Card.Text>           
                                 </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
-                <Card className="text-center mb-2 border-0">
-                    <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
-                        <Row>
-                            <Card.Img variant="top" src={ml4va}/>
-                        </Row>
-                        <Row>   
+                            </Card.Link>
+                        </Card>
+                    </Col>
+                    <Col md={3}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={pcd_augmentation}/>
                                 <Card.Body>                
-                                        <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>                
-                                        <Card.Text>
-                                            Identifying Regions at Risk of Run-Off Water Pollution
-                                        </Card.Text>           
+                                    <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>                
+                                    <Card.Text>
+                                    Impact of Perturbation Injections for LiDAR-Based Neural Networks
+                                    </Card.Text>           
                                 </Card.Body>   
-                        </Row>
-                    </Card.Link>
-                </Card>
+                            </Card.Link>
+                        </Card>
+                    </Col>
+                    <Col md={3}>
+                        <Card className="text-center border border-secondary bg-light h-100">
+                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                                <Card.Img variant="top" src={ml4va}/>
+                                <Card.Body>                
+                                    <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>                
+                                    <Card.Text>
+                                    Identifying Regions at Risk of Run-Off Water Pollution
+                                    </Card.Text>           
+                                </Card.Body>   
+                            </Card.Link>
+                        </Card>
+                    </Col>  
                 </Row>
             </div>
             {/* <h4 className="pt-5">News</h4> */}
