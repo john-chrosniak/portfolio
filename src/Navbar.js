@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from './images/racing-logo.jpeg';
-import PDF from './Brianna-Heckert-Resume.pdf';
+import PDF from './John_Chrosniak_Resume.pdf';
 
 const NavbarCustom = () => {
   return (
@@ -14,7 +14,7 @@ const NavbarCustom = () => {
           <Nav className="ms-auto">
             <Nav.Link style={{color: "white"}} href="/home">Home</Nav.Link> {/*TODO: change to racecar icon or something */}
             <Nav.Link style={{color: "white"}} href="/about">About</Nav.Link>
-            <Nav.Link style={{color: "white"}} href={PDF} target = "_blank">Resume</Nav.Link> {/*TODO: link to pdf resume*/}
+            <Nav.Link style={{color: "white"}} href={PDF} target = "_blank">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

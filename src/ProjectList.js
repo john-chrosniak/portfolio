@@ -11,6 +11,7 @@ import perception_demo from './images/perception_demo.mp4'
 import traj_demo from './images/halfwaydecentovertake.mp4'
 import racecar_demo from './images/racecar_demo.mp4'
 
+import aipd from './images/aipd_logo.png'
 import rosbot_sar from './images/sar_map.png'
 import cube_crusher from './images/cube_crusher.png'
 import free_throw_fixer from './images/shaq_free_throw.jpeg'
@@ -33,11 +34,9 @@ const ProjectList = () => {
                         <Card className="text-center m-1 border-1">
                             <Card.Link href={"https://github.com/linklab-uva/deep-dynamics"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
-                                    {/* <Card.Img variant="top"> */}
-                                        <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
-                                            <source src={ddm_hero} type="video/mp4"/>
-                                        </video>
-                                        {/* </Card.Img> */}
+                                    <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
+                                        <source src={ddm_hero} type="video/mp4"/>
+                                    </video>
                                 </Row>
                                 <Row>   
                                         <Card.Body>                
@@ -137,11 +136,11 @@ const ProjectList = () => {
 
             <div id="Projects section">
                 <h2 className="pt-5"><center>Projects</center></h2>
-                <Row lg={2}>
+                <Row lg={4}>
                 <Card className="text-center mb-2 border-0">
                     <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
                         <Row>
-                            <Card.Img variant="top" src={"/*TODO: fill in with images */"}/>
+                            <Card.Img variant="top" src={aipd}/>
                         </Row>
                         <Row>   
                                 <Card.Body>                
@@ -168,8 +167,6 @@ const ProjectList = () => {
                         </Row>
                     </Card.Link>
                 </Card>
-                </Row>
-                <Row lg={2}>
                 <Card className="text-center mb-2 border-0">
                     <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
                         <Row>
@@ -201,7 +198,7 @@ const ProjectList = () => {
                     </Card.Link>
                 </Card>
                 </Row>
-                <Row lg={2}>
+                <Row lg={3}>
                 <Card className="text-center mb-2 border-0">
                     <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
                         <Row>
@@ -232,8 +229,6 @@ const ProjectList = () => {
                         </Row>
                     </Card.Link>
                 </Card>
-                </Row>
-                <Row lg={1}>
                 <Card className="text-center mb-2 border-0">
                     <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
                         <Row>
