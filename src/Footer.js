@@ -1,13 +1,15 @@
-import linkedLogo from "./images/linkedin.png";
-import githubLogo from "./images/github.png"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+
 
 const Footer = () => {
     return (
         <div class='footer'>
             <div class="contactinfo">
-                <a style={{margin: "5px"}} href="https://www.linkedin.com/in/john-chrosniak/"><img src={linkedLogo} alt="LinkedIn Logo" style={{width:"40px", height:"40px"}}></img></a>
-                <a style={{margin: "5px"}} >chrosniakj@gmail.com</a>
-                <a style={{margin: "5px"}} href="https://github.com/john-chrosniak"><img src={githubLogo} alt="Github Logo" style={{width:"40px", height:"40px"}}></img></a>
+                <a style={{margin: "5px"}} href="https://www.linkedin.com/in/john-chrosniak/"><FontAwesomeIcon icon={faLinkedin} alt="LinkedIn Logo" style={{width:"50px", height:"50px", color:"#0077b5"}}/></a>
+                <a style={{margin: "5px"}} >jlc9wr@virginia.edu</a>
+                <a style={{margin: "5px"}} href="https://github.com/john-chrosniak"><FontAwesomeIcon icon={faGithub} alt="Github Logo" style={{width:"50px", height:"50px", color:"#000000"}}/></a>
             </div>
             <div class="copyright">
                 <p>&copy;John Chrosniak 2023</p>
