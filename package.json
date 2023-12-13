@@ -1,7 +1,7 @@
 {
   "name": "john-chros",
   "version": "0.1.0",
-  "homepage": "https://john-chrosniak.github.io/portfolio/#",
+  "homepage": "/portfolio/#",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
