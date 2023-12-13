@@ -14,7 +14,7 @@ const Banner = () => {
                     <h1 className="fw-bold py-5 display-2">John Chrosniak</h1>
                     <h4 className="display-6">Self-Driving + Robotics Researcher</h4>
                     <h4 className="fw-light">Master's Student at the University of Virginia</h4>
-                    <Button variant="outline-primary m-3" size="lg"><Link to="research" spy={true} smooth={true}>Featured Projects</Link></Button>
+                    <Button variant="outline-primary m-3" size="lg"><Link to="research" spy={true} smooth={true}>Portfolio</Link></Button>
                 </Col>
                 <Col md={6}>
                     <Image src={headShot} fluid roundedCircle/>
