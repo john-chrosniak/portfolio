@@ -29,13 +29,13 @@ const About = () => {
                 </Col>
             </Row>
             <Row className="pt-5">
-                <Col md={7} className="my-auto">
-                <p className="lead" style={{textIndent: "50px"}}>As a Perception Team Co-Lead on the <a href="https://autonomousracing.dev/">Cavalier Autonomous Racing Team</a>,
+                <Col md={{span: 7, order: 1}} xs={{span:12, order: 2}} className="my-auto">
+                <p className="lead" style={{textIndent: "50px"}}>As a Perception Team Co-Lead on the <a style={{color:"blue"}} href="https://autonomousracing.dev/">Cavalier Autonomous Racing Team</a>,
                 I am in charge of developing and deploying the object detection and tracking software for a full-scale autonomous racecar. The University of Virginia team competes year round in time trial and head-to-head competitions
-                as part of the <a href="https://www.indyautonomouschallenge.com/">Indy Autonomous Challenge </a>at professional racing tracks like the Indianapolis Motor Speedway, Las Vegas Motor Speedway, and the Monza Circuit.
+                as part of the <a style={{color:"blue"}} href="https://www.indyautonomouschallenge.com/">Indy Autonomous Challenge </a>at professional racing tracks like the Indianapolis Motor Speedway, Las Vegas Motor Speedway, and the Monza Circuit.
                 </p>
                 </Col>
-                <Col md={5}>
+                <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 2 }}>
                     <Card className="text-center border-0">
                         <Card.Img variant="top" src={car_team} style={{height: "25rem"}}/>
                             {/* <Card.Body> */}
@@ -54,21 +54,21 @@ const About = () => {
                     </Card>
                 </Col>
                 <Col md={7} className="my-auto">
-                <p className="lead" style={{textIndent: "50px"}}>I was also heavily involved with the <a href="https://www.solarcaratuva.org/"></a>Solar Car Team at UVA as an undergraduate.
-                My teammates and I designed and manufactured a full-scale solar-powered racecar that competed in the <a href="https://www.americansolarchallenge.org/about/formula-sun-grand-prix/">Formula Sun Grand Prix </a>
+                <p className="lead" style={{textIndent: "50px"}}>I was also heavily involved with the <a style={{color:"blue"}} href="https://www.solarcaratuva.org/">Solar Car Team at UVA </a> as an undergraduate.
+                My teammates and I designed and manufactured a full-scale solar-powered racecar that competed in the <a style={{color:"blue"}} href="https://www.americansolarchallenge.org/about/formula-sun-grand-prix/">Formula Sun Grand Prix </a>
                 at the Heartland Motorsports Park. My role as the Embedded System Team Co-Lead was to design the hardware and firmware that interfaces the various components
                 of the racecar (e.g. solar panels, motor, battery pack) over a CANbus.
                 </p>
                 </Col>
             </Row>
             <Row className="pt-5">
-                <Col md={7} className="my-auto">
+                <Col md={{span: 7, order: 1}} xs={{span:12, order: 2}} className="my-auto">
                 <p className="lead" style={{textIndent: "50px"}}>When I'm not hunched over a computer, I spend as much time as I can outdoors.
                 I love snowboarding, mountain biking, hiking, backpacking, and recently gave mountaineering a try (big fan of mountains). I also
                 enjoy cooking, video games, and playing the guitar, trombone, or trumpet.
                 </p>
                 </Col>
-                <Col md={5}>
+                <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 2 }}>
                     <Card className="text-center border-0">
                         <Card.Img variant="top" src={glacier} style={{height: "25rem"}}/>
                             {/* <Card.Body> */}
