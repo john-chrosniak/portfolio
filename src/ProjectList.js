@@ -226,8 +226,11 @@ const ProjectList = () => {
                                     <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>                
                                     <Card.Text>
                                     Identifying Regions at Risk of Run-Off Water Pollution
-                                    </Card.Text>           
-                                </Card.Body>   
+                                    </Card.Text>          
+                                </Card.Body>  
+                                <Card.Footer>
+                                    Tools: Python, TensorFlow, Keras    
+                                </Card.Footer>  
                             </Card.Link>
                         </Card>
                     </Col>  
