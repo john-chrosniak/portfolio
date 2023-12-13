@@ -145,11 +145,11 @@ const ProjectList = () => {
                                     <Card.Img variant="top" src={aipd}/>
                                         <Card.Body>                
                                                 <Card.Title className="font-weight-bold">A.I.P.D</Card.Title>                
-                                                <Card.Text className="text-start">
-                                                    Enforcing Traffic Violations with Autonomous Vehicles
+                                                <Card.Text>
+                                                    Enforcing Speeding with Autonomous Vehicles
                                                 </Card.Text>           
                                         </Card.Body> 
-                                        <br></br>
+                                        <br></br><br></br>
                                 <Card.Footer className="text-muted text-start">Python, ROS, ROSBag API, OpenCV, Qt</Card.Footer>    
                             </Card.Link>
                         </Card>
@@ -160,7 +160,7 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={capstone}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Bouncer Locking System</Card.Title>                
-                                    <Card.Text className="text-start">
+                                    <Card.Text>
                                         An Anti-Theft Lockbox for Safe Package Delivery
                                     </Card.Text>           
                                 </Card.Body> 
@@ -176,12 +176,12 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={rosbot_sar}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">ROSbot Search & Rescue</Card.Title>                
-                                    <Card.Text className="text-start">
+                                    <Card.Text>
                                     Locating Objects of Interest While Mapping an Unknown Environment
                                     </Card.Text>           
                                 </Card.Body>
                                 <br></br>
-                                <Card.Footer className="text-muted text-start">Python, C++, ROS, PCL</Card.Footer>   
+                                <Card.Footer className="text-muted text-start">Python, C++, ROS, PCL, Eigen</Card.Footer>   
                             </Card.Link>
                         </Card>
                     </Col>
@@ -194,8 +194,8 @@ const ProjectList = () => {
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>  
                                     <br></br>              
-                                    <Card.Text className="text-start">
-                                    Video Game for the Tiva C Series MCU
+                                    <Card.Text>
+                                    Cube Crusher Video Game for the Tiva C Series MCU
                                     </Card.Text>           
                                 </Card.Body>
                                 <br></br>
@@ -209,7 +209,7 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={free_throw_fixer}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>             
-                                    <Card.Text className="text-start">
+                                    <Card.Text>
                                     Fixing Basketball Shooting Form with a Smart Watch
                                     </Card.Text>           
                                 </Card.Body>
@@ -224,7 +224,7 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={pcd_augmentation}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>          
-                                    <Card.Text className="text-start">
+                                    <Card.Text>
                                         <br></br>
                                     Impact of Perturbation Injections for LiDAR-Based Neural Networks
                                     </Card.Text>           
@@ -240,7 +240,7 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={ml4va}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>
-                                    <Card.Text className='text-start'>
+                                    <Card.Text>
                                     Identifying Regions at Risk of Run-Off Water Pollution
                                     </Card.Text> 
                                 </Card.Body> 
