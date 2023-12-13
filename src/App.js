@@ -1,12 +1,12 @@
 import NavbarCustom from './Navbar'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Routes, Route, HashRouter} from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Footer from './Footer'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div className="App">
       <NavbarCustom></NavbarCustom>
       <div className="content p-3">
@@ -23,7 +23,7 @@ function App() {
         <Footer></Footer>
       </div>
     </div>
-  </Router>
+  </HashRouter>
   );
 }
 
