@@ -52,7 +52,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={6}>
                         <Card className="text-center m-1 border-1">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://autonomousracing.dev/"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
                                     <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                         <source src={perception_demo} type="video/mp4"/>
@@ -73,7 +73,7 @@ const ProjectList = () => {
                 <Row>
                     <Col md={6}>
                         <Card className="text-center m-1 border-1">
-                        <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                        <Card.Link href={"https://github.com/linklab-uva/deepracing-state-estimation"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
                                 <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                     <source src={traj_demo} type="video/mp4"/>
@@ -92,7 +92,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={6}>
                         <Card className="text-center m-1 border-1">
-                        <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                        <Card.Link href={"https://github.com/linklab-uva/rosbag2nuscenes"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
                                 <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                     <source src={racecar_demo} type="video/mp4"/>
@@ -140,7 +140,7 @@ const ProjectList = () => {
                 <Row>
                     <Col md={4}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/linklab-uva/aipd"} style={{textDecoration: 'none', color: 'black'}}>
                                     <Card.Img variant="top" src={aipd}/>
                                         <Card.Body>                
                                                 <Card.Title className="font-weight-bold">A.I.P.D</Card.Title>                
@@ -153,7 +153,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={4}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/You-Underestimate-Our-Powell/EmbeddedSystem"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={capstone}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Bouncer Locking System</Card.Title>                
@@ -166,7 +166,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={4}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                             <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                             <Card.Link href={"https://github.com/john-chrosniak/rosbot-search-and-rescue"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={rosbot_sar}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">ROSbot Search & Rescue</Card.Title>                
@@ -181,7 +181,7 @@ const ProjectList = () => {
                 <Row className="pt-5">
                     <Col md={3}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/john-chrosniak/cube-crusher"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={cube_crusher}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>                
@@ -194,7 +194,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={3}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/john-chrosniak/free-throw-fixer"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={free_throw_fixer}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>                
@@ -207,7 +207,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={3}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/john-chrosniak/point-cloud-augmentation"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={pcd_augmentation}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>                
@@ -220,7 +220,7 @@ const ProjectList = () => {
                     </Col>
                     <Col md={3}>
                         <Card className="text-center border border-secondary bg-light h-100">
-                            <Card.Link href={"/*TODO: fill in with links */"} style={{textDecoration: 'none', color: 'black'}}>
+                            <Card.Link href={"https://github.com/john-chrosniak/ML4VA"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={ml4va}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>                
