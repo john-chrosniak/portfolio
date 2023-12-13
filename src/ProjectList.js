@@ -32,7 +32,7 @@ const ProjectList = () => {
                     </p>
                 <Row>
                     <Col md={6}>
-                        <Card className="text-center m-1 border-1">
+                        <Card className="text-center m-1 border-1 bg-light">
                             <Card.Link href={"https://github.com/linklab-uva/deep-dynamics"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
                                     <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
@@ -51,7 +51,7 @@ const ProjectList = () => {
                         </Card>
                     </Col>
                     <Col md={6}>
-                        <Card className="text-center m-1 border-1">
+                        <Card className="text-center m-1 border-1 bg-light">
                             <Card.Link href={"https://autonomousracing.dev/"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
                                     <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
@@ -72,7 +72,7 @@ const ProjectList = () => {
                 </Row>
                 <Row>
                     <Col md={6}>
-                        <Card className="text-center m-1 border-1">
+                        <Card className="text-center m-1 border-1 bg-light">
                         <Card.Link href={"https://github.com/linklab-uva/deepracing-state-estimation"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
                                 <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
@@ -91,7 +91,7 @@ const ProjectList = () => {
                         </Card>
                     </Col>
                     <Col md={6}>
-                        <Card className="text-center m-1 border-1">
+                        <Card className="text-center m-1 border-1 bg-light">
                         <Card.Link href={"https://github.com/linklab-uva/rosbag2nuscenes"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
                                 <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
