@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 
@@ -144,10 +145,12 @@ const ProjectList = () => {
                                     <Card.Img variant="top" src={aipd}/>
                                         <Card.Body>                
                                                 <Card.Title className="font-weight-bold">A.I.P.D</Card.Title>                
-                                                <Card.Text>
+                                                <Card.Text className="text-start">
                                                     Enforcing Traffic Violations with Autonomous Vehicles
                                                 </Card.Text>           
-                                        </Card.Body>   
+                                        </Card.Body> 
+                                        <br></br>
+                                <Card.Footer className="text-muted text-start">Python, ROS, ROSBag API, OpenCV, Qt</Card.Footer>    
                             </Card.Link>
                         </Card>
                     </Col>
@@ -157,10 +160,13 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={capstone}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">Bouncer Locking System</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Text className="text-start">
                                         An Anti-Theft Lockbox for Safe Package Delivery
                                     </Card.Text>           
-                                </Card.Body>   
+                                </Card.Body> 
+                                <br></br>
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">C++, Python, AWS S3, OpenCV, Flask, KiCad</Card.Footer>   
                             </Card.Link>
                         </Card>
                     </Col>
@@ -170,25 +176,30 @@ const ProjectList = () => {
                                 <Card.Img variant="top" src={rosbot_sar}/>
                                 <Card.Body>                
                                     <Card.Title className="font-weight-bold">ROSbot Search & Rescue</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Text className="text-start">
                                     Locating Objects of Interest While Mapping an Unknown Environment
                                     </Card.Text>           
-                                </Card.Body>   
+                                </Card.Body>
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">Python, C++, ROS, PCL</Card.Footer>   
                             </Card.Link>
                         </Card>
                     </Col>
                 </Row>
-                <Row className="pt-5">
+                <Row className="pt-5 h-100">
                     <Col md={3}>
                         <Card className="text-center border border-secondary bg-light h-100">
                             <Card.Link href={"https://github.com/john-chrosniak/cube-crusher"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={cube_crusher}/>
                                 <Card.Body>                
-                                    <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Title className="font-weight-bold">Real-Time Cube Crusher</Card.Title>  
+                                    <br></br>              
+                                    <Card.Text className="text-start">
                                     Video Game for the Tiva C Series MCU
                                     </Card.Text>           
-                                </Card.Body>   
+                                </Card.Body>
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">C, ARM Assembly</Card.Footer>      
                             </Card.Link>
                         </Card>
                     </Col>
@@ -197,11 +208,13 @@ const ProjectList = () => {
                             <Card.Link href={"https://github.com/john-chrosniak/free-throw-fixer"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={free_throw_fixer}/>
                                 <Card.Body>                
-                                    <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Title className="font-weight-bold">Free Throw Fixer Wearable Device</Card.Title>             
+                                    <Card.Text className="text-start">
                                     Fixing Basketball Shooting Form with a Smart Watch
                                     </Card.Text>           
-                                </Card.Body>   
+                                </Card.Body>
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">Python, Java, TensorFlow</Card.Footer>     
                             </Card.Link>
                         </Card>
                     </Col>
@@ -210,11 +223,14 @@ const ProjectList = () => {
                             <Card.Link href={"https://github.com/john-chrosniak/point-cloud-augmentation"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={pcd_augmentation}/>
                                 <Card.Body>                
-                                    <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Title className="font-weight-bold">Point Cloud Augmentation</Card.Title>          
+                                    <Card.Text className="text-start">
+                                        <br></br>
                                     Impact of Perturbation Injections for LiDAR-Based Neural Networks
                                     </Card.Text>           
-                                </Card.Body>   
+                                </Card.Body>
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">Python, PyTorch, PCL</Card.Footer>   
                             </Card.Link>
                         </Card>
                     </Col>
@@ -223,14 +239,13 @@ const ProjectList = () => {
                             <Card.Link href={"https://github.com/john-chrosniak/ML4VA"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Card.Img variant="top" src={ml4va}/>
                                 <Card.Body>                
-                                    <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>                
-                                    <Card.Text>
+                                    <Card.Title className="font-weight-bold">Semantic Segmentation of Agricultural Fields</Card.Title>
+                                    <Card.Text className='text-start'>
                                     Identifying Regions at Risk of Run-Off Water Pollution
-                                    </Card.Text>          
-                                </Card.Body>  
-                                <Card.Footer>
-                                    Tools: Python, TensorFlow, Keras    
-                                </Card.Footer>  
+                                    </Card.Text> 
+                                </Card.Body> 
+                                <br></br>
+                                <Card.Footer className="text-muted text-start">Python, Tensorflow, Keras</Card.Footer>   
                             </Card.Link>
                         </Card>
                     </Col>  
