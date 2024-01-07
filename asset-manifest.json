@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9cb31975.css",
-    "main.js": "/portfolio/static/js/main.f756d222.js",
+    "main.js": "/portfolio/static/js/main.56c563c1.js",
     "static/js/787.82504bdf.chunk.js": "/portfolio/static/js/787.82504bdf.chunk.js",
-    "static/media/perception_demo.mp4": "/portfolio/static/media/perception_demo.a8ac3871ae03e2b3b911.mp4",
-    "static/media/deep_dynamics_demo.mp4": "/portfolio/static/media/deep_dynamics_demo.b9dfff42ea135a839828.mp4",
-    "static/media/halfwaydecentovertake.mp4": "/portfolio/static/media/halfwaydecentovertake.209805c7ff0f89309731.mp4",
+    "static/media/perception_demo.mp4": "/portfolio/static/media/perception_demo.91af1f27b20e5b14a6bf.mp4",
+    "static/media/deep_dynamics_demo.mp4": "/portfolio/static/media/deep_dynamics_demo.5476697b04be65910a3a.mp4",
     "static/media/car_team.png": "/portfolio/static/media/car_team.c5a58cac32cbfaceb499.png",
+    "static/media/halfwaydecentovertake.mp4": "/portfolio/static/media/halfwaydecentovertake.b3cbe49bb193e4c271ee.mp4",
     "static/media/cube_crusher.png": "/portfolio/static/media/cube_crusher.7a203496e8ebb751d61e.png",
-    "static/media/racecar_demo.mp4": "/portfolio/static/media/racecar_demo.6f307854805222c16cf2.mp4",
     "static/media/capstone.PNG": "/portfolio/static/media/capstone.484d6f3cf091ce108d9a.PNG",
     "static/media/me_and_samir.jpg": "/portfolio/static/media/me_and_samir.b279e509cb8874e8d18a.jpg",
     "static/media/solar_car.jpg": "/portfolio/static/media/solar_car.f50e02838a3e8a492fa6.jpg",
+    "static/media/racecar_demo.mp4": "/portfolio/static/media/racecar_demo.69e134c65a166542460a.mp4",
     "static/media/glacier.jpg": "/portfolio/static/media/glacier.10f2a633baa49712209e.jpg",
     "static/media/pcd_perturbations.png": "/portfolio/static/media/pcd_perturbations.2f887c699f1e31f0bdf3.png",
     "static/media/image_segmentation.png": "/portfolio/static/media/image_segmentation.3256440eb5e34d844850.png",
@@ -23,11 +23,11 @@
     "static/media/aipd_logo.png": "/portfolio/static/media/aipd_logo.4ab877ff5acedf788170.png",
     "index.html": "/portfolio/index.html",
     "main.9cb31975.css.map": "/portfolio/static/css/main.9cb31975.css.map",
-    "main.f756d222.js.map": "/portfolio/static/js/main.f756d222.js.map",
+    "main.56c563c1.js.map": "/portfolio/static/js/main.56c563c1.js.map",
     "787.82504bdf.chunk.js.map": "/portfolio/static/js/787.82504bdf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cb31975.css",
-    "static/js/main.f756d222.js"
+    "static/js/main.56c563c1.js"
   ]
 }
