@@ -8,9 +8,13 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 
 
 import ddm_hero from './images/deep_dynamics_demo.mp4';
+import ddm_thumbnail from './images/deep_dynamics_demo.png'
 import perception_demo from './images/perception_demo.mp4'
+import perception_thumbnail from './images/perception_demo.png'
 import traj_demo from './images/halfwaydecentovertake.mp4'
+import traj_thumbnail from './images/halfwaydecentovertake.png'
 import racecar_demo from './images/racecar_demo.mp4'
+import racecar_thumbnail from './images/racecar_demo.png'
 
 import aipd from './images/aipd_logo.png'
 import capstone from './images/capstone.PNG'
@@ -36,7 +40,7 @@ const ProjectList = () => {
                         <Card className="text-center m-1 border-1 bg-light">
                             <Card.Link href={"https://github.com/linklab-uva/deep-dynamics"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
-                                    <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
+                                    <video poster={ddm_thumbnail} muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                         <source src={ddm_hero} type="video/mp4"/>
                                     </video>
                                 </Row>
@@ -55,7 +59,7 @@ const ProjectList = () => {
                         <Card className="text-center m-1 border-1 bg-light">
                             <Card.Link href={"https://autonomousracing.dev/"} style={{textDecoration: 'none', color: 'black'}}>
                                 <Row>
-                                    <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
+                                    <video poster={perception_thumbnail} muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                         <source src={perception_demo} type="video/mp4"/>
                                     </video>
                                 </Row>
@@ -76,7 +80,7 @@ const ProjectList = () => {
                         <Card className="text-center m-1 border-1 bg-light">
                         <Card.Link href={"https://github.com/linklab-uva/deepracing-state-estimation"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
-                                <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
+                                <video poster={traj_thumbnail} muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                     <source src={traj_demo} type="video/mp4"/>
                                 </video>
                             </Row>
@@ -95,7 +99,7 @@ const ProjectList = () => {
                         <Card className="text-center m-1 border-1 bg-light">
                         <Card.Link href={"https://github.com/linklab-uva/rosbag2nuscenes"} style={{textDecoration: 'none', color: 'black'}}>
                             <Row>
-                                <video muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
+                                <video poster={racecar_thumbnail} muted loop onMouseOver={event => event.target.play()} onMouseOut={event => {event.target.currentTime=0; event.target.pause()}}>
                                     <source src={racecar_demo} type="video/mp4"/>
                                 </video>
                             </Row>
