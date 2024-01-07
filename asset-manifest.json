@@ -1,10 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9cb31975.css",
-    "main.js": "/portfolio/static/js/main.54e3e690.js",
+    "main.js": "/portfolio/static/js/main.b50e4707.js",
     "static/js/787.82504bdf.chunk.js": "/portfolio/static/js/787.82504bdf.chunk.js",
     "static/media/car_team.png": "/portfolio/static/media/car_team.c5a58cac32cbfaceb499.png",
     "static/media/cube_crusher.png": "/portfolio/static/media/cube_crusher.7a203496e8ebb751d61e.png",
+    "static/media/racecar_demo.png": "/portfolio/static/media/racecar_demo.f737f9d522b3af4b732c.png",
+    "static/media/halfwaydecentovertake.png": "/portfolio/static/media/halfwaydecentovertake.1ad80597d61a144aea78.png",
+    "static/media/deep_dynamics_demo.png": "/portfolio/static/media/deep_dynamics_demo.ebb0be2b09ff4c05cfa4.png",
+    "static/media/perception_demo.png": "/portfolio/static/media/perception_demo.2d9e770ed0d4b2e44e90.png",
     "static/media/capstone.PNG": "/portfolio/static/media/capstone.484d6f3cf091ce108d9a.PNG",
     "static/media/me_and_samir.jpg": "/portfolio/static/media/me_and_samir.b279e509cb8874e8d18a.jpg",
     "static/media/solar_car.jpg": "/portfolio/static/media/solar_car.f50e02838a3e8a492fa6.jpg",
@@ -23,11 +27,11 @@
     "static/media/aipd_logo.png": "/portfolio/static/media/aipd_logo.4ab877ff5acedf788170.png",
     "index.html": "/portfolio/index.html",
     "main.9cb31975.css.map": "/portfolio/static/css/main.9cb31975.css.map",
-    "main.54e3e690.js.map": "/portfolio/static/js/main.54e3e690.js.map",
+    "main.b50e4707.js.map": "/portfolio/static/js/main.b50e4707.js.map",
     "787.82504bdf.chunk.js.map": "/portfolio/static/js/787.82504bdf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cb31975.css",
-    "static/js/main.54e3e690.js"
+    "static/js/main.b50e4707.js"
   ]
 }
