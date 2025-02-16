@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9cb31975.css",
-    "main.js": "/portfolio/static/js/main.b50e4707.js",
-    "static/js/787.82504bdf.chunk.js": "/portfolio/static/js/787.82504bdf.chunk.js",
+    "main.css": "/portfolio/static/css/main.25a970bf.css",
+    "main.js": "/portfolio/static/js/main.c3458796.js",
+    "static/js/453.f2aee6a4.chunk.js": "/portfolio/static/js/453.f2aee6a4.chunk.js",
     "static/media/car_team.png": "/portfolio/static/media/car_team.c5a58cac32cbfaceb499.png",
     "static/media/cube_crusher.png": "/portfolio/static/media/cube_crusher.7a203496e8ebb751d61e.png",
     "static/media/racecar_demo.png": "/portfolio/static/media/racecar_demo.f737f9d522b3af4b732c.png",
     "static/media/halfwaydecentovertake.png": "/portfolio/static/media/halfwaydecentovertake.1ad80597d61a144aea78.png",
     "static/media/deep_dynamics_demo.png": "/portfolio/static/media/deep_dynamics_demo.ebb0be2b09ff4c05cfa4.png",
+    "static/media/truck.jpg": "/portfolio/static/media/truck.308ef4c4d3804ecba9f3.jpg",
     "static/media/perception_demo.png": "/portfolio/static/media/perception_demo.2d9e770ed0d4b2e44e90.png",
     "static/media/capstone.PNG": "/portfolio/static/media/capstone.484d6f3cf091ce108d9a.PNG",
-    "static/media/me_and_samir.jpg": "/portfolio/static/media/me_and_samir.b279e509cb8874e8d18a.jpg",
     "static/media/solar_car.jpg": "/portfolio/static/media/solar_car.f50e02838a3e8a492fa6.jpg",
     "static/media/racecar_demo.mp4": "/portfolio/static/media/racecar_demo.69e134c65a166542460a.mp4",
     "static/media/halfwaydecentovertake.mp4": "/portfolio/static/media/halfwaydecentovertake.6bb8301fb0a010bec2df.mp4",
@@ -19,19 +19,19 @@
     "static/media/glacier.jpg": "/portfolio/static/media/glacier.10f2a633baa49712209e.jpg",
     "static/media/pcd_perturbations.png": "/portfolio/static/media/pcd_perturbations.2f887c699f1e31f0bdf3.png",
     "static/media/image_segmentation.png": "/portfolio/static/media/image_segmentation.3256440eb5e34d844850.png",
+    "static/media/john.jpeg": "/portfolio/static/media/john.f5f1fcd64f21187070c6.jpeg",
     "static/media/sar_map.png": "/portfolio/static/media/sar_map.ed84faec0df15a808880.png",
-    "static/media/john.jpeg": "/portfolio/static/media/john.386f06c9730ff5203578.jpeg",
-    "static/media/John_Chrosniak_Resume.pdf": "/portfolio/static/media/John_Chrosniak_Resume.49b4b2c573d69ddcbf03.pdf",
+    "static/media/John_Chrosniak_Resume.pdf": "/portfolio/static/media/John_Chrosniak_Resume.c175534ad496af63d003.pdf",
     "static/media/shaq_free_throw.jpeg": "/portfolio/static/media/shaq_free_throw.34ff66c0bafdf97b3692.jpeg",
     "static/media/logo.png": "/portfolio/static/media/logo.48905aa2f6dd9c870b61.png",
     "static/media/aipd_logo.png": "/portfolio/static/media/aipd_logo.4ab877ff5acedf788170.png",
     "index.html": "/portfolio/index.html",
-    "main.9cb31975.css.map": "/portfolio/static/css/main.9cb31975.css.map",
-    "main.b50e4707.js.map": "/portfolio/static/js/main.b50e4707.js.map",
-    "787.82504bdf.chunk.js.map": "/portfolio/static/js/787.82504bdf.chunk.js.map"
+    "main.25a970bf.css.map": "/portfolio/static/css/main.25a970bf.css.map",
+    "main.c3458796.js.map": "/portfolio/static/js/main.c3458796.js.map",
+    "453.f2aee6a4.chunk.js.map": "/portfolio/static/js/453.f2aee6a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cb31975.css",
-    "static/js/main.b50e4707.js"
+    "static/css/main.25a970bf.css",
+    "static/js/main.c3458796.js"
   ]
 }
