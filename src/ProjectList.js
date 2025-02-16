@@ -123,7 +123,7 @@ const ProjectList = () => {
                 <Container className="mb-5">
                     <h4>Peer-Reviewed</h4>
                     <p><a href={"https://arxiv.org/abs/2312.04374"}><b>[3]</b> John Chrosniak, Jingyun Ning, and Madhur Behl. <b><i>Deep Dynamics: Vehicle Dynamics Modeling with a Physics-Informed Neural
-                    Network for Autonomous Racing</i></b>. <i>Under Peer Review at RA-L</i>, 2023. </a><a href={"https://arxiv.org/abs/2312.04374"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
+                    Network for Autonomous Racing</i></b>. In <i>2024 IEEE Robotics and Automation Letters</i>, 2024. </a><a href={"https://arxiv.org/abs/2312.04374"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
                     <p><a href={"https://arxiv.org/abs/2306.03252"}><b>[2]</b> Amar Kulkarni, John Chrosniak, Emory Ducote, Florian Sauerback, Andrew Saba, Utkarsh Chirimar, John Link,
                     Marcello Cellina, and Madhur Behl. <b><i>RACECAR &mdash; The Dataset for High-Speed Autonomous Racing</i></b>. In <i>2023 IEEE International
                     Conference on Intelligent Robots and Systems</i>, 2023.</a> <a href={"https://arxiv.org/abs/2306.03252"}> <FontAwesomeIcon icon={faFilePdf}/></a></p>
