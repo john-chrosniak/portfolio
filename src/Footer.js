@@ -12,7 +12,7 @@ const Footer = () => {
                 <a style={{margin: "5px"}} href="https://github.com/john-chrosniak"><FontAwesomeIcon icon={faGithub} alt="Github Logo" style={{width:"40px", height:"40px", color:"#000000"}}/></a>
             </div>
             <div className="copyright">
-                <p>&copy;John Chrosniak 2023</p>
+                <p>&copy;John Chrosniak 2025</p>
             </div>
         </div>
     );
